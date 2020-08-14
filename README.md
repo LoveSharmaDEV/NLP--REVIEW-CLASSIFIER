@@ -28,7 +28,7 @@
 
 ## BAG OF WORDS MODEL
 
-  <img src="IMAGES/screen0.png" width="850" height="350">
+  <img src="IMAGES/screen0.png" width="850" height="550">
 
 
 * The bag-of-words model is a way representing text data when modeling text with machine learning algorithms.
@@ -71,8 +71,9 @@ Text preprocessing or text cleaning basically deals with removing of all unwante
 * First layer: Input Layer (dimension [1,15000])
 * Second Layer: Activation Layer (activation function used: RELU (rectifier)) (dimension [1,700]
 * Third Layer: Output Layer (activation function used: Sigmoid )
-* Loss Function used: Binary Cross-Entropy
-  <img src="IMAGES/loss.png" width="850" height="350">
+* Loss Function used: Binary Cross-Entropy </br>
+
+  <img src="IMAGES/loss.png" width="550" height="150">
 
 * Optimizer used: Adam Optimizer
 
