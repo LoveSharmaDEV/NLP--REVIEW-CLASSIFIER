@@ -28,6 +28,9 @@
 
 ## BAG OF WORDS MODEL
 
+  <img src="IMAGES/screen0.png" width="850" height="350">
+
+
 * The bag-of-words model is a way representing text data when modeling text with machine learning algorithms.
 * When working with textual content its important to understand that machine learning algorithms are mathematical in nature, so its not possible to process raw text directly into machine learning process. So bag of words is basically a feature extraction or feature encoding algorithm that provides solution to this problem by converting the textual content into the vector of numbers.
 * Implementing BAG OF WORDS MODEL
@@ -69,6 +72,8 @@ Text preprocessing or text cleaning basically deals with removing of all unwante
 * Second Layer: Activation Layer (activation function used: RELU (rectifier)) (dimension [1,700]
 * Third Layer: Output Layer (activation function used: Sigmoid )
 * Loss Function used: Binary Cross-Entropy
+  <img src="IMAGES/loss.png" width="850" height="350">
+
 * Optimizer used: Adam Optimizer
 
 
