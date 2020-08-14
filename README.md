@@ -46,13 +46,21 @@ Text preprocessing or text cleaning basically deals with removing of all unwante
   
 ## TEXT VECTORIZATION
 
+  <img src="IMAGES/screen1.png" width="550" height="80">
+
 * Text vectorization is the process through which the textual content is converted into integers by which it can be processed in any machine learning module.
 * This is one of the most important part in bag of words model, the core of this model lies in this step.
 * Python has a library which performs this vectorizing operation named CountVectorizer. Above code creates an object of CountVectorizer which later fits itself to training data and transforms the data set into vector of integers form.
+
+  <img src="IMAGES/screen2.png" width="850" height="350">
+
 * So this vectorized data set basically have 1500 columns representing 1500 unique words which contribute to classification of a review. And each row represents a single review with 0 representing the word not present in review and 1 representing word present in review. 
 
 
 ## WORKING WITH NUERAL NET
+
+  <img src="IMAGES/screen3.png" width="750" height="350">
+
 
 * So our neural network is basically working as logistic regressor.  As we are using sigmoid activation function at the output layer. Which gives the output between 0 to1.
 * Library used  KERAS (Framework To Build Neural Networks)
@@ -66,6 +74,9 @@ Text preprocessing or text cleaning basically deals with removing of all unwante
 
 ## WEIGHTS AND ACTIVATION FUNCTION
 
+  <img src="IMAGES/screen4.png" width="750" height="350">
+
+
 * Weights are the core element in the neural network through which the learning process is done.
 * It is weights that are adjusted in the process of learning in order to predict the output.
 * Activation function of a node defines the output of that node given an input or set of inputs.
@@ -74,6 +85,9 @@ Text preprocessing or text cleaning basically deals with removing of all unwante
 * SIGMOID is used in output layer for predicting the output.
 
 ## LEARNING IN NEURAL NETWORK
+
+  <img src="IMAGES/screen5.png" width="750" height="350">
+
 
 * FORWARD PROPAGATION: The forward propagation is the process in which the input is feeded  to a neural network and the data flows from one layer to another getting processed on the way by the hidden layer’s activation functions. It is also called feed forward. This process ends with predicting the final output.
 
@@ -91,9 +105,17 @@ Text preprocessing or text cleaning basically deals with removing of all unwante
 
 ## CONCLUSION
 
+  <img src="IMAGES/screen6.png" width="750" height="350">
+
+
+
 * So on training the data set using this neural network we were able to create a classifier which was able to classify whether a review is positive or not
 * So, on  training for 100 epochs we reached upto the accuracy level of 0.9962
 
 ## CONFUSION MATRIX
+  <img src="IMAGES/screen7.png" width="750" height="350">
+  
+
 
 ## COMPARING Y_TEST AND Y_PRED
+  <img src="IMAGES/screen8.png" width="750" height="350">
